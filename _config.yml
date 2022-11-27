@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/" # xunaksy.github.io/blog but www.nezen.co.kr/
-url: "https://xuansky.github.io"
+url: "https://www.nezen.co.kr"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Intelli-cell                                     # site's title
