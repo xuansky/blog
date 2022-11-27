@@ -1,8 +1,8 @@
 --- 
 layout: page
-title : Portfolio 
+title : Help 
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
+subtitle: "How to make Jekyll post (samples)" 
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page]
 ---
