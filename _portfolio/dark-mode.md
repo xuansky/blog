@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dark Mode
+img: assets/img/portfolio/github.png
 tags: [Katex, Mermaid, Markdown]
 ---
 

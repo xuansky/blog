@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sample post
+img: assets/img/portfolio/github.png
 tags: [A Tag, Katex]
 excerpt_separator: <!--more-->
 ---

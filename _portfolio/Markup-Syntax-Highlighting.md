@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Markup: Syntax Highlighting"
+img: assets/img/portfolio/github.png
 author: mmistakes
 tags: [Highlight, Markdown]
 ---

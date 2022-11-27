@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Color Post
+img: assets/img/portfolio/github.png
 tags: [Test, Color]
 color: brown
 author: sylhare

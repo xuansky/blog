@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Real Lorem Ipsum
+img: assets/img/portfolio/github.png
 tags: [Image, Color]
 color: turquoise
 excerpt_separator: <!--more-->

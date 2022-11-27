@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown and HTML
+img: assets/img/portfolio/github.png
 tags: [Katex, Markdown]
 author: rohanchandra
 ---

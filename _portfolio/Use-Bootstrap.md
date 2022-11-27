@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bootstrap"
+img: assets/img/portfolio/github.png
 bootstrap: true
 tags: [Test]
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+img: assets/img/portfolio/github.png
 title: >
     Blogging with title 
 tags: [Test, Image]

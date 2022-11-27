@@ -3,6 +3,7 @@ layout: post
 title: What's your title
 hide_title: true
 feature-img: assets/img/feature-img/story.jpeg
+img: assets/img/portfolio/github.png
 author: mhagnumdw
 tags: [Test, Image]
 ---
