@@ -30,7 +30,7 @@ exit
 redis-cli
 ```
 
-```redis
+```sh
 config set requirepass my-new-pass
 ```
 
@@ -38,13 +38,13 @@ config set requirepass my-new-pass
 
 다음 명령으로 암호를 확인할 수 있다.
 
-```redis
+```sh
 auth my-new-pass
 ```
 
 클라이언트를 종료할 때는 `exit`를 실행한다.
 
-```redis
+```sh
 exit
 ```
 
