@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu 20.04에 Redis 설치하기
 author: xuansky
-color: #f57c00
+color: "#f57c00"
 tags: [linux, ubuntu, redis]
 ---
 
