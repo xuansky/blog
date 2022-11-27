@@ -5,6 +5,8 @@ auth: xuansky
 tags: [linux, ubuntu, redis]
 ---
 
+이 페이지 요약: 우분투에서 Redis를 간단히 설치해 본다.
+
 ### Redis 설치
 
 ```bash
