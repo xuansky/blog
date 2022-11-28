@@ -24,7 +24,7 @@ chcp 65001
 
 그리고 아래와 같이 작성한다.
 
-```txt
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Console\%SystemRoot%_System32_cmd.exe]
