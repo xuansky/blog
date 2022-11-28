@@ -3,6 +3,8 @@ layout: post
 title: Windows의 모든 콘솔에서 유니코드 적용 (codepage 65001)
 author: xuansky
 color: "#7777"
+feature-img: "assets/img/feature-img/desk-messy.jpeg"
+thumbnail: "assets/img/thumbnails/feature-img/desk-messy.jpeg"
 tags: [windows, console, unicode]
 ---
 
