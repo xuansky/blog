@@ -80,7 +80,7 @@ sudo certbot certonly --manual --manual-auth-hook /etc/letsencrypt/acme-dns-auth
 > `--manual`는 모든 자동 발급 기능은 무효화 한다. 지정한 발급 기능을 사용하기 위해 기본적인 자동발급 기능은 사용하지 않는다.  
 > `--manual-auth-hook`은 acme-dns-certbot 으로 hook 기능을 사용하기 위해 설정한다.  
 > `--preferred-challenges`는 DNS방식으로 발급한다는 설정이다.  
-> `--debug-challenges`는 인증서의 유효성 검사하기 전 Certbot을 일시 중지하도록 해야 하기 때문에 사용한다. 이는 acme-dns-certbot에서 요구하는 DNS CNAME 레코드를 성정할 수 있도록 하기 위한 것이며, 중지하지 않게 되면 DNS 설정을 변경할 시간이 없을 것이다.  
+> `--debug-challenges`는 인증서의 유효성 검사하기 전 Certbot을 일시 중지하도록 해야 하기 때문에 사용한다. 이는 acme-dns-certbot에서 요구하는 DNS CNAME 레코드를 설정할 수 있도록 하기 위한 것이며, 중지하지 않게 되면 DNS 설정을 변경할 시간이 없을 것이다.  
 > `-d`는 사용할 도메인 이름을 지정할 때 사용한다.  
 > 만약에 와일드카드 인증을 하려면 별표(*)를 사용하는데 앞에 backslash(\\)를 붙여야 한다.
 
