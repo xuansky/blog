@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 # 우분투에서 Let's Encrypt로 ssl 발급하고 Nginx로 https 서비스 하기
 
-Let's Encrypt로 ssl 인증서 발급하는 방법은 인터넷을 찾으면 쉽게 알 수 있다. 하지만 DNS를 이용한 발급 방식은 잘 없고 더욱이 자동 연장하는 방법이 함께 설명된 자료는 더 찾기 힘들다. 이 내용은 DigitalOcean[(1)] 에서 참고하여 정리하였다.
+Let's Encrypt로 ssl 인증서 발급하는 방법은 인터넷을 찾으면 쉽게 알 수 있다. 하지만 DNS를 이용한 발급 방식은 잘 없고 더욱이 자동 연장하는 방법이 함께 설명된 자료는 더 찾기 힘들다. 이 내용은 DigitalOcean[^(1)] 에서 참고하여 정리하였다.
 
 <!--more-->
 
@@ -250,4 +250,4 @@ sudo ufw allow 443
 
 ---
 
-[(1)]: https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-acme-dns-certbot-on-ubuntu-18-04
+[^(1)]: https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-acme-dns-certbot-on-ubuntu-18-04
