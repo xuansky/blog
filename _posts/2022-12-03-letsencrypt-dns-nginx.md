@@ -9,9 +9,9 @@ excerpt_separator: <!--more-->
 
 # 우분투에서 Let's Encrypt로 ssl 발급하고 Nginx로 https 서비스 하기
 
-우분투에서 어떻게 DNS 방식으로 와일드카드 도메인을 등록하는지 알아 볼 것이다.
-
 Let's Encrypt로 ssl 인증서 발급하는 방법은 인터넷을 찾으면 쉽게 알 수 있다. 하지만 DNS를 이용한 발급 방식은 잘 없고 더욱이 자동 연장하는 방법이 함께 설명된 자료는 더 찾기 힘들다. 이 내용은 DigitalOcean[(1)] 에서 참고하여 정리하였다.
+
+---
 
 Lets' Encrypt는 웹 환경에 정말 좋은 영향을 준다고 생각한다. 웹 보안을 위해 SSL을 의무화 하고 강하게 권유하고 있지만 대 부분 SSL인증서는 고가로 서비스 되고 있다. 일반적으로 1년 사용 비용이 도메인 비용의 몇배에서 몇십배에 달하는데 Let's Encrypt는 3개월 갱신만 지키면 영원히 무료이다.
 
@@ -116,7 +116,7 @@ EFF news, campaigns, and ways to support digital freedom.
 ```
 Account registered.
 Requesting a certificate for *.your-domain and your-domain
-Hook '--manual-auth-hook' for ofthink.me ran with output:
+Hook '--manual-auth-hook' for your-domain ran with output:
  Please add the following CNAME record to your main DNS zone:
  _acme-challenge.your-domain CNAME baad1234-11x1-49x1-b345-c3ff52692x53.auth.acme-dns.io.
 
