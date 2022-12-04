@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu에서 dotNet 구축하기 (dotNet6)
 tags: [ubuntu, nginx, dotNet, .net]
-color: blue
+color: skyblue
 author: xuansky
 # excerpt_separator: <!--more-->
 ---
