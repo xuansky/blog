@@ -24,7 +24,7 @@ sudo apt-add-repository ppa:certbot/certbot
 
 그 다음에 certbot을 설치한다.
 ```bash
-sudo apt-add-repository ppa:certbot/certbot
+sudo apt install certbot
 ```
 > 중간에 나오는 질문은 전부 `y` 또는 `Y`를 입력하면 된다.
 
