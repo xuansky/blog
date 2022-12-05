@@ -167,13 +167,13 @@ sudo crontab -e
 ```
 vi 편집 화면이 뜨고 설명이 나와 있다. 사용법은 검색해 보면 되고 우리는 맨 아래줄에 다음과 같은 내용만 입력하면 된다.
 
-```cron
+```
 0 1 1 * * /usr/bin/certbot renew >> /var/log/letsencrypt/renew.log
 ```
 설명하자면 매월 1일 01:00에 갱신 한다는 것이다.
 
 추가로 certbot으로 renew하고 nginx를 재시작 하려면 다음과 같이 한다.
-```cron
+```
 0 0 1 * * certbot renew --renew-hook "sudo service nginx restart" >> /var/log/letsencrypt/renew.log
 ```
 
@@ -198,7 +198,7 @@ server {
 server {
   # https 설정은 여기에 한다.
   listen 443 ssl http2;
-  server_name api.user-domain www.user-domain user-domain
+  server_name api.user-domain www.user-domain user-domain;
 
   ssl_certificate /etc/letsencrypt/live/your-domain/fullchain.pem;
   ssl_certificate_key /etc/letsencrypt/live/your-domain/privkey.pem;
